@@ -1,0 +1,20 @@
+
+{
+  "name": "sync-node-example",
+  "description": "A simple example of using resin-sync development experience with Node.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resin-io-projects/sync-node-example.git"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "*"
+  },
+  "engines": {
+      "node": "4.0.0"
+  }
+}

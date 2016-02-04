@@ -24,6 +24,9 @@ ENV INITSYSTEM=on
 # resin-sync will always sync to /usr/src/app, so code needs to be here.
 WORKDIR /usr/src/app
 
+COPY app/package.json package.json
+RUN JOBS=MAX npm install --unsafe-perm
+
 # copy current directory into WORKDIR
 COPY app/ ./
 
