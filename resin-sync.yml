@@ -1,0 +1,8 @@
+source: app/
+before: 'echo "I will run before syncing to the device..."'
+ignore:
+    - .git
+    - Dockerfile
+    - resin-sync.yml
+progress: true
+watch: false
